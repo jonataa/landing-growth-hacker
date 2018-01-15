@@ -355,6 +355,7 @@ body {
         border: 1px solid $theme-primary; 
         border-radius: 50%;
         height: 270px;
+        margin-bottom: 15px;
     }
 
     a {
@@ -362,7 +363,6 @@ body {
     }
 
     .teacher-bio {
-        margin-top: 15px;
         padding: 0 260px;
     }
     
@@ -371,4 +371,15 @@ body {
 .text-highlight {
     color: $theme-primary;
     font-weight: bold;
+}
+
+#big-phrase {
+    color: #ffffff;
+    padding: 200px 0;
+    background-image: url('../img/peoples.png');
+    background-size: cover;
+
+    .section-heading {
+        padding: 0 270px;
+    }
 }
