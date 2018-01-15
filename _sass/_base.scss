@@ -287,6 +287,10 @@ header {
 }
 
 .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     h2 {
         margin: 0 auto 20px;
     }
@@ -358,6 +362,7 @@ body {
 }
 
 .teacher-profile {
+    max-width: 700px;
 
     img {
         border-radius: 50%;
@@ -370,7 +375,9 @@ body {
     }
 
     .teacher-bio {
-        padding: 0 260px;
+        @media(min-width: 768px) {
+            // padding: 0 260px;
+        }
     }
     
 }
@@ -382,12 +389,15 @@ body {
 
 #big-phrase {
     color: #ffffff;
-    padding: 200px 0;
     background-image: url('../img/peoples.png');
     background-size: cover;
 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     .section-heading {
-        padding: 0 270px;
+        max-width: 1050px;
         font-weight: 100;
         line-height: 1.5;
     }
