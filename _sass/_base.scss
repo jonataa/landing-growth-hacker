@@ -460,3 +460,15 @@ body {
         font-weight: bold;
     }
 }
+
+.module-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+
+    li {
+        i {
+            margin-right: 10px;
+        }
+    }
+}
